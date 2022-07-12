@@ -1,5 +1,13 @@
 .skillsBody {
-    padding: 4rem;
-    background: #fff;
-    text-align: center;
+  padding: 4rem;
+  background: #fff;
+  text-align: center;
+  opacity: 0;
+  transition: 1s;
+}
+.skillsBody:hover{
+  opacity: 1;
+}
+  .postman{
+    max-width: 90px;
   }
