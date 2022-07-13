@@ -16,15 +16,15 @@ function Footer() {
           <div className='social-icons'>
             <Link
               className='social-icon-link facebook'
-              to='https://www.youtube.com/'
               target='_blank'
+              to={{ pathname: "https://web.facebook.com/profile.php?id=100008068067705" }}
               aria-label='Facebook'
-            >
+            >   
               <i className='fab fa-facebook-f' />
             </Link>
             <Link
               className='social-icon-link instagram'
-              to='/'
+              to={{ pathname: "https://www.instagram.com/lu1s_h4m1lt0n/" }}
               target='_blank'
               aria-label='Instagram'
             >
@@ -32,7 +32,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link youtube'
-              to='/'
+              to={{ pathname: "https://www.youtube.com/channel/UCPRJt3ut8Fsd5iOBjNxMBZw" }}
               target='_blank'
               aria-label='Youtube'
             >
@@ -40,7 +40,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link twitter'
-              to='/'
+              to={{ pathname: "https://twitter.com/SrHamitun" }}
               target='_blank'
               aria-label='Twitter'
             >
@@ -48,7 +48,7 @@ function Footer() {
             </Link>
             <Link
               className='social-icon-link linkedin'
-              to='/'
+              to={{ pathname: "https://www.linkedin.com/in/luis-hamilton-balem-331116179/" }}
               target='_blank'
               aria-label='LinkedIn'
             >
