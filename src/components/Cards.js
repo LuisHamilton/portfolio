@@ -10,11 +10,13 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem 
               src='images/FOTINHA.jpg'
-              text="I'm 19 years old, already graduated in computer tchnician. I love this profession and very much looking forward to the possibilities we can create for the world."
+              text="I'm 19 years old, already graduated in computer technician. I love this profession and very much looking forward to the possibilities we can create for the world."
+              path='/'
             />
             <CardItem 
               src='images/FOTINHA2.jpg'
               text="Nowadays I work as systems developer in Bosch Curitiba and trying to finish my bacharelor's degree in computer engineering."
+              path='/'
             />
           </ul>
           <br></br><br></br>
